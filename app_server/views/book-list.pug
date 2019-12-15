@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Here is a  list of my favourite books 
+  ul
+    each m in books
+      li
+        a(href=`/books/${m._id}`)= m.name
+        
+  

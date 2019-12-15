@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.navbar-dark        
+        .container   
+          button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarMain')           
+            span.navbar-toggler-icon
+          a.navbar-brand(href='/ ') Books Store
+          #navbarMain.navbar-collapse.collapse 
+            ul.navbar-nav.mr-auto 
+                li.nav-item
+                    a.nav-link(href='/about/') About
+                li.nav-item
+                    a.nav-link(href='/list/') Books List
+    block content
+    footer
+        p ManpreetKaurSidhu@Assignment3

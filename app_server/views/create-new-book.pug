@@ -1,0 +1,17 @@
+extends layout
+
+block content 
+    form(action='' method='POST')
+        .form-item  
+            label(for='name') Enter  name: 
+            input#name(type='text' name='name' required)
+        .form-item  
+            label(for='category') Enter  category: 
+            input#category(type='text' name='category' required)
+        .form-item  
+            label(for='year') Enter  year: 
+            input#category(type='text' name='year' required)
+        .form-item  
+            label(for='bookcollection') Enter  Collection: 
+            input#category(type='text' name='bookcollection' required)    
+        input(type='submit' value='Submit')

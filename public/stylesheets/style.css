@@ -1,0 +1,33 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+
+a {
+  color: white;
+}
+
+h1,p,a
+{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #ffffff;
+   background-color:cadetblue;
+    background-image: url(../images/book.jpg);
+   
+    background-size:cover;
+  margin-top: 72px;
+  margin-left: 124px;
+}
